@@ -1,0 +1,13 @@
+{
+    "java.debug.settings.console": "integratedTerminal",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.maven.enabled": true,
+    "files.encoding": "utf8",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": "${env:windir}\\System32\\cmd.exe",
+            "args": ["/k", "chcp 65001 > nul"]
+        }
+    }
+}
